@@ -1,0 +1,26 @@
+Jiaming Zheng 
+Completed Homework 4 : 4/12/2021
+File Created : 4/13/2021 
+Part 1: Completed 4/6/2021
+- Added code to parse through given text file
+- Created new getter and simple arithmetic functions in quadratic_probing.h to print wanted values
+- Modified quadratic_probing.h to have private members tCollisions and probe for later print values
+- Created new linear_probing.h with the same basic functions 
+- Modified the FindPos function to change offset value when collision is found as well as keep track of the number of collisions there are 
+    and probe count
+- Added additional code to parse through given query file
+- used Contain function for functions to output specific values if word was found
+Part 2: Completed 4/8/2021
+- Created new file called double_hashing.h 
+- Modified FindPos function to allow double hashing with a given second hash function 
+- Personally used R = 11 to test whether double_hashing.h worked 
+- Included a print line to print out the r value 
+Part 3: Completely 4/12/2021
+- Created the MakeDictionary function that takes the given text file and parses through it into a HashType<string> which would be searched through later 
+- Included an alphabet and punctuation for requirement for cases
+- Utilized the Contain function with the dictionary that we created with MakeDictionary to figure out if a word was correct 
+- If it was not correct, the word would go through three cases and would be tested if the result from the three cases were in the dictionary
+- If the result is in the dictionary then it would print out the case type and the result 
+- CaseA - insert one any new letter from (a-z) to any position in the word to see if it made a word that was in the dictionary 
+- CaseB - removed any letter from the word to see if the resulting word was in the dictionary
+- CaseC - swapped a letter with the letter that followed to see if the resulting word was in the dictionary

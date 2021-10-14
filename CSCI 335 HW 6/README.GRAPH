@@ -1,0 +1,12 @@
+Question 1: 
+I created the graph class with public and private functions. The private function is where the initialization of the vertex is located
+I also added the graph classes to include an edge structure for the vertex. 
+I added variables such as distance to navigate and identify vertices. 
+I used ifstream in CreateGraphAndTest to parse through the lines of the given graph file.
+I had to then create a function in the class to connect vertices
+- AddEdge function to set adjacency of edges between vertices
+- pushing back to vector to store vertices
+I added another ifstream in CreateGraphAndTest to parse through the adjacency query files.
+
+Question 2:
+It is able to display the correct output for graph2 but not for some of the conditions for graph1.
